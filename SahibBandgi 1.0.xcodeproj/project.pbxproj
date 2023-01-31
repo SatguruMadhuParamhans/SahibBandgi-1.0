@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A04C56229803E54004AE1F8 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A04C56129803E54004AE1F8 /* VideoView.swift */; };
+		0A09464B297831560015F858 /* IdeologyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09464A297831560015F858 /* IdeologyView.swift */; };
+		0A09464D297831A50015F858 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09464C297831A50015F858 /* MissionView.swift */; };
+		0A09464F297831D10015F858 /* TrustView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09464E297831D10015F858 /* TrustView.swift */; };
+		0A094651297831FF0015F858 /* SatguruView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A094650297831FF0015F858 /* SatguruView.swift */; };
+		0A0946532978322D0015F858 /* KabirSahibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0946522978322D0015F858 /* KabirSahibView.swift */; };
+		0A0946552978326A0015F858 /* GuruVsSatguruView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0946542978326A0015F858 /* GuruVsSatguruView.swift */; };
+		0A094657297832C00015F858 /* ParampurushVsNiranjanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A094656297832C00015F858 /* ParampurushVsNiranjanView.swift */; };
+		0A0946592978331C0015F858 /* TVChannelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0946582978331C0015F858 /* TVChannelsView.swift */; };
+		0A09465B297833640015F858 /* BhajanPlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09465A297833640015F858 /* BhajanPlaylistView.swift */; };
+		0A09465D297833A40015F858 /* SatsangAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09465C297833A40015F858 /* SatsangAudioView.swift */; };
+		0A09465F297833F50015F858 /* AshramContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09465E297833F50015F858 /* AshramContactsView.swift */; };
+		0A0946612978342D0015F858 /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0946602978342D0015F858 /* PrivacyView.swift */; };
+		0A0946632978346F0015F858 /* FAQsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0946622978346F0015F858 /* FAQsView.swift */; };
+		0AD7C86A2976F8D500A57B0A /* SahibBandgi_1_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD7C8692976F8D500A57B0A /* SahibBandgi_1_0App.swift */; };
+		0AD7C86C2976F8D500A57B0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD7C86B2976F8D500A57B0A /* ContentView.swift */; };
+		0AD7C86E2976F8D800A57B0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD7C86D2976F8D800A57B0A /* Assets.xcassets */; };
+		0AD7C8722976F8D800A57B0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD7C8712976F8D800A57B0A /* Preview Assets.xcassets */; };
+		0AD7C87C2976F8D900A57B0A /* SahibBandgi_1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD7C87B2976F8D900A57B0A /* SahibBandgi_1_0Tests.swift */; };
+		0AD7C8862976F8D900A57B0A /* SahibBandgi_1_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD7C8852976F8D900A57B0A /* SahibBandgi_1_0UITests.swift */; };
+		0AD7C8882976F8D900A57B0A /* SahibBandgi_1_0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD7C8872976F8D900A57B0A /* SahibBandgi_1_0UITestsLaunchTests.swift */; };
+		0AD7C897297708DE00A57B0A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD7C896297708DE00A57B0A /* HomeView.swift */; };
+		0AD7C89929770AC600A57B0A /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD7C89829770AC600A57B0A /* AboutView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AD7C8782976F8D900A57B0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AD7C85E2976F8D500A57B0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AD7C8652976F8D500A57B0A;
+			remoteInfo = "SahibBandgi 1.0";
+		};
+		0AD7C8822976F8D900A57B0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AD7C85E2976F8D500A57B0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AD7C8652976F8D500A57B0A;
+			remoteInfo = "SahibBandgi 1.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A04C56129803E54004AE1F8 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		0A09464A297831560015F858 /* IdeologyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdeologyView.swift; sourceTree = "<group>"; };
+		0A09464C297831A50015F858 /* MissionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		0A09464E297831D10015F858 /* TrustView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrustView.swift; sourceTree = "<group>"; };
+		0A094650297831FF0015F858 /* SatguruView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SatguruView.swift; sourceTree = "<group>"; };
+		0A0946522978322D0015F858 /* KabirSahibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KabirSahibView.swift; sourceTree = "<group>"; };
+		0A0946542978326A0015F858 /* GuruVsSatguruView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuruVsSatguruView.swift; sourceTree = "<group>"; };
+		0A094656297832C00015F858 /* ParampurushVsNiranjanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParampurushVsNiranjanView.swift; sourceTree = "<group>"; };
+		0A0946582978331C0015F858 /* TVChannelsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVChannelsView.swift; sourceTree = "<group>"; };
+		0A09465A297833640015F858 /* BhajanPlaylistView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BhajanPlaylistView.swift; sourceTree = "<group>"; };
+		0A09465C297833A40015F858 /* SatsangAudioView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SatsangAudioView.swift; sourceTree = "<group>"; };
+		0A09465E297833F50015F858 /* AshramContactsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AshramContactsView.swift; sourceTree = "<group>"; };
+		0A0946602978342D0015F858 /* PrivacyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		0A0946622978346F0015F858 /* FAQsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQsView.swift; sourceTree = "<group>"; };
+		0AD7C8662976F8D500A57B0A /* SahibBandgi 1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SahibBandgi 1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AD7C8692976F8D500A57B0A /* SahibBandgi_1_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SahibBandgi_1_0App.swift; sourceTree = "<group>"; };
+		0AD7C86B2976F8D500A57B0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0AD7C86D2976F8D800A57B0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AD7C86F2976F8D800A57B0A /* SahibBandgi_1_0.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SahibBandgi_1_0.entitlements; sourceTree = "<group>"; };
+		0AD7C8712976F8D800A57B0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0AD7C8772976F8D900A57B0A /* SahibBandgi 1.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SahibBandgi 1.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AD7C87B2976F8D900A57B0A /* SahibBandgi_1_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SahibBandgi_1_0Tests.swift; sourceTree = "<group>"; };
+		0AD7C8812976F8D900A57B0A /* SahibBandgi 1.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SahibBandgi 1.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AD7C8852976F8D900A57B0A /* SahibBandgi_1_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SahibBandgi_1_0UITests.swift; sourceTree = "<group>"; };
+		0AD7C8872976F8D900A57B0A /* SahibBandgi_1_0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SahibBandgi_1_0UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0AD7C896297708DE00A57B0A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0AD7C89829770AC600A57B0A /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AD7C8632976F8D500A57B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD7C8742976F8D900A57B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD7C87E2976F8D900A57B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AD7C85D2976F8D500A57B0A = {
+			isa = PBXGroup;
+			children = (
+				0AD7C8682976F8D500A57B0A /* SahibBandgi 1.0 */,
+				0AD7C87A2976F8D900A57B0A /* SahibBandgi 1.0Tests */,
+				0AD7C8842976F8D900A57B0A /* SahibBandgi 1.0UITests */,
+				0AD7C8672976F8D500A57B0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AD7C8672976F8D500A57B0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AD7C8662976F8D500A57B0A /* SahibBandgi 1.0.app */,
+				0AD7C8772976F8D900A57B0A /* SahibBandgi 1.0Tests.xctest */,
+				0AD7C8812976F8D900A57B0A /* SahibBandgi 1.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AD7C8682976F8D500A57B0A /* SahibBandgi 1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				0AD7C8692976F8D500A57B0A /* SahibBandgi_1_0App.swift */,
+				0AD7C86B2976F8D500A57B0A /* ContentView.swift */,
+				0AD7C89829770AC600A57B0A /* AboutView.swift */,
+				0A09464A297831560015F858 /* IdeologyView.swift */,
+				0A09464C297831A50015F858 /* MissionView.swift */,
+				0A09464E297831D10015F858 /* TrustView.swift */,
+				0A094650297831FF0015F858 /* SatguruView.swift */,
+				0A0946522978322D0015F858 /* KabirSahibView.swift */,
+				0A0946622978346F0015F858 /* FAQsView.swift */,
+				0A0946542978326A0015F858 /* GuruVsSatguruView.swift */,
+				0A094656297832C00015F858 /* ParampurushVsNiranjanView.swift */,
+				0A0946582978331C0015F858 /* TVChannelsView.swift */,
+				0A09465A297833640015F858 /* BhajanPlaylistView.swift */,
+				0A09465C297833A40015F858 /* SatsangAudioView.swift */,
+				0A09465E297833F50015F858 /* AshramContactsView.swift */,
+				0A0946602978342D0015F858 /* PrivacyView.swift */,
+				0AD7C896297708DE00A57B0A /* HomeView.swift */,
+				0AD7C86D2976F8D800A57B0A /* Assets.xcassets */,
+				0AD7C86F2976F8D800A57B0A /* SahibBandgi_1_0.entitlements */,
+				0AD7C8702976F8D800A57B0A /* Preview Content */,
+				0A04C56129803E54004AE1F8 /* VideoView.swift */,
+			);
+			path = "SahibBandgi 1.0";
+			sourceTree = "<group>";
+		};
+		0AD7C8702976F8D800A57B0A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0AD7C8712976F8D800A57B0A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0AD7C87A2976F8D900A57B0A /* SahibBandgi 1.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0AD7C87B2976F8D900A57B0A /* SahibBandgi_1_0Tests.swift */,
+			);
+			path = "SahibBandgi 1.0Tests";
+			sourceTree = "<group>";
+		};
+		0AD7C8842976F8D900A57B0A /* SahibBandgi 1.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0AD7C8852976F8D900A57B0A /* SahibBandgi_1_0UITests.swift */,
+				0AD7C8872976F8D900A57B0A /* SahibBandgi_1_0UITestsLaunchTests.swift */,
+			);
+			path = "SahibBandgi 1.0UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AD7C8652976F8D500A57B0A /* SahibBandgi 1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AD7C88B2976F8D900A57B0A /* Build configuration list for PBXNativeTarget "SahibBandgi 1.0" */;
+			buildPhases = (
+				0AD7C8622976F8D500A57B0A /* Sources */,
+				0AD7C8632976F8D500A57B0A /* Frameworks */,
+				0AD7C8642976F8D500A57B0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SahibBandgi 1.0";
+			productName = "SahibBandgi 1.0";
+			productReference = 0AD7C8662976F8D500A57B0A /* SahibBandgi 1.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AD7C8762976F8D900A57B0A /* SahibBandgi 1.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AD7C88E2976F8D900A57B0A /* Build configuration list for PBXNativeTarget "SahibBandgi 1.0Tests" */;
+			buildPhases = (
+				0AD7C8732976F8D900A57B0A /* Sources */,
+				0AD7C8742976F8D900A57B0A /* Frameworks */,
+				0AD7C8752976F8D900A57B0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AD7C8792976F8D900A57B0A /* PBXTargetDependency */,
+			);
+			name = "SahibBandgi 1.0Tests";
+			productName = "SahibBandgi 1.0Tests";
+			productReference = 0AD7C8772976F8D900A57B0A /* SahibBandgi 1.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0AD7C8802976F8D900A57B0A /* SahibBandgi 1.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AD7C8912976F8D900A57B0A /* Build configuration list for PBXNativeTarget "SahibBandgi 1.0UITests" */;
+			buildPhases = (
+				0AD7C87D2976F8D900A57B0A /* Sources */,
+				0AD7C87E2976F8D900A57B0A /* Frameworks */,
+				0AD7C87F2976F8D900A57B0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AD7C8832976F8D900A57B0A /* PBXTargetDependency */,
+			);
+			name = "SahibBandgi 1.0UITests";
+			productName = "SahibBandgi 1.0UITests";
+			productReference = 0AD7C8812976F8D900A57B0A /* SahibBandgi 1.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AD7C85E2976F8D500A57B0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0AD7C8652976F8D500A57B0A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0AD7C8762976F8D900A57B0A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0AD7C8652976F8D500A57B0A;
+					};
+					0AD7C8802976F8D900A57B0A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0AD7C8652976F8D500A57B0A;
+					};
+				};
+			};
+			buildConfigurationList = 0AD7C8612976F8D500A57B0A /* Build configuration list for PBXProject "SahibBandgi 1.0" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AD7C85D2976F8D500A57B0A;
+			productRefGroup = 0AD7C8672976F8D500A57B0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AD7C8652976F8D500A57B0A /* SahibBandgi 1.0 */,
+				0AD7C8762976F8D900A57B0A /* SahibBandgi 1.0Tests */,
+				0AD7C8802976F8D900A57B0A /* SahibBandgi 1.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AD7C8642976F8D500A57B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD7C8722976F8D800A57B0A /* Preview Assets.xcassets in Resources */,
+				0AD7C86E2976F8D800A57B0A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD7C8752976F8D900A57B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD7C87F2976F8D900A57B0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AD7C8622976F8D500A57B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD7C89929770AC600A57B0A /* AboutView.swift in Sources */,
+				0A09465B297833640015F858 /* BhajanPlaylistView.swift in Sources */,
+				0AD7C897297708DE00A57B0A /* HomeView.swift in Sources */,
+				0A094657297832C00015F858 /* ParampurushVsNiranjanView.swift in Sources */,
+				0A094651297831FF0015F858 /* SatguruView.swift in Sources */,
+				0A0946612978342D0015F858 /* PrivacyView.swift in Sources */,
+				0A04C56229803E54004AE1F8 /* VideoView.swift in Sources */,
+				0AD7C86C2976F8D500A57B0A /* ContentView.swift in Sources */,
+				0A0946532978322D0015F858 /* KabirSahibView.swift in Sources */,
+				0A09464B297831560015F858 /* IdeologyView.swift in Sources */,
+				0A09464F297831D10015F858 /* TrustView.swift in Sources */,
+				0A0946592978331C0015F858 /* TVChannelsView.swift in Sources */,
+				0AD7C86A2976F8D500A57B0A /* SahibBandgi_1_0App.swift in Sources */,
+				0A0946632978346F0015F858 /* FAQsView.swift in Sources */,
+				0A09465F297833F50015F858 /* AshramContactsView.swift in Sources */,
+				0A0946552978326A0015F858 /* GuruVsSatguruView.swift in Sources */,
+				0A09464D297831A50015F858 /* MissionView.swift in Sources */,
+				0A09465D297833A40015F858 /* SatsangAudioView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD7C8732976F8D900A57B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD7C87C2976F8D900A57B0A /* SahibBandgi_1_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD7C87D2976F8D900A57B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD7C8882976F8D900A57B0A /* SahibBandgi_1_0UITestsLaunchTests.swift in Sources */,
+				0AD7C8862976F8D900A57B0A /* SahibBandgi_1_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AD7C8792976F8D900A57B0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AD7C8652976F8D500A57B0A /* SahibBandgi 1.0 */;
+			targetProxy = 0AD7C8782976F8D900A57B0A /* PBXContainerItemProxy */;
+		};
+		0AD7C8832976F8D900A57B0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AD7C8652976F8D500A57B0A /* SahibBandgi 1.0 */;
+			targetProxy = 0AD7C8822976F8D900A57B0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AD7C8892976F8D900A57B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0AD7C88A2976F8D900A57B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0AD7C88C2976F8D900A57B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SahibBandgi 1.0/SahibBandgi_1_0.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SahibBandgi 1.0/Preview Content\"";
+				DEVELOPMENT_TEAM = N2X9KAD7QG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sb.SahibBandgi-1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AD7C88D2976F8D900A57B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "SahibBandgi 1.0/SahibBandgi_1_0.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SahibBandgi 1.0/Preview Content\"";
+				DEVELOPMENT_TEAM = N2X9KAD7QG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sb.SahibBandgi-1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0AD7C88F2976F8D900A57B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N2X9KAD7QG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sb.SahibBandgi-1-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SahibBandgi 1.0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SahibBandgi 1.0";
+			};
+			name = Debug;
+		};
+		0AD7C8902976F8D900A57B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N2X9KAD7QG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sb.SahibBandgi-1-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SahibBandgi 1.0.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SahibBandgi 1.0";
+			};
+			name = Release;
+		};
+		0AD7C8922976F8D900A57B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N2X9KAD7QG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sb.SahibBandgi-1-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SahibBandgi 1.0";
+			};
+			name = Debug;
+		};
+		0AD7C8932976F8D900A57B0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N2X9KAD7QG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sb.SahibBandgi-1-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SahibBandgi 1.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AD7C8612976F8D500A57B0A /* Build configuration list for PBXProject "SahibBandgi 1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD7C8892976F8D900A57B0A /* Debug */,
+				0AD7C88A2976F8D900A57B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AD7C88B2976F8D900A57B0A /* Build configuration list for PBXNativeTarget "SahibBandgi 1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD7C88C2976F8D900A57B0A /* Debug */,
+				0AD7C88D2976F8D900A57B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AD7C88E2976F8D900A57B0A /* Build configuration list for PBXNativeTarget "SahibBandgi 1.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD7C88F2976F8D900A57B0A /* Debug */,
+				0AD7C8902976F8D900A57B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AD7C8912976F8D900A57B0A /* Build configuration list for PBXNativeTarget "SahibBandgi 1.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD7C8922976F8D900A57B0A /* Debug */,
+				0AD7C8932976F8D900A57B0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AD7C85E2976F8D500A57B0A /* Project object */;
+}
