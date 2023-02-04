@@ -2,6 +2,7 @@
 
     import SwiftUI
 
+
     class MenuContent: Identifiable, ObservableObject {
         var id = UUID()
         var name: String = ""
@@ -16,6 +17,8 @@
 struct ContentView: View {
     var menu: [MenuContent] = menuContents
     @State var menuItemSelected: MenuContent = menuContents[0]
+    
+    @Environment(\.openURL) private var openURL
     
     var body: some View {
             ZStack {
@@ -34,6 +37,9 @@ struct ContentView: View {
             switch Menu.name {
             case "Home":
                 return AnyView(HomeView())
+             
+            case "Quick Links":
+                return AnyView(QuickLinksView())
                 
             case "About":
                 return AnyView(AboutView())
@@ -65,12 +71,6 @@ struct ContentView: View {
             case "TV Channels":
                 return AnyView(TVChannelsView())
                 
-            case "Bhajan Playlist":
-                return AnyView(BhajanPlaylistView())
-                
-            case "Satsang Audio":
-                return AnyView(SatsangAudioView())
-                
             case "Ashram Contacts":
                 return AnyView(AshramContactsView())
                 
@@ -86,6 +86,7 @@ struct ContentView: View {
 
     #if DEBUG
     let menuHome = MenuContent(name: "Home", image: "house.fill")
+    let menuQuickLinks = MenuContent(name: "Quick Links", image: "house.fill")
     let menuAbout = MenuContent(name: "About", image: "person.fill")
     let menuIdeology = MenuContent(name: "Ideology", image: "person.fill")
     let menuMission = MenuContent(name: "Mission", image: "message.fill")
@@ -96,11 +97,9 @@ struct ContentView: View {
     let menuGuruVsSatguru = MenuContent(name: "Guru vs Satguru", image: "power")
     let menuParampurushVsNiranjan = MenuContent(name: "Parampurush vs Niranjan", image: "power")
     let menuTVChannels = MenuContent(name: "TV Channels", image: "power")
-    let menuBhajanPlaylist = MenuContent(name: "Bhajan Playlist", image: "power")
-    let menuSatsangAudio = MenuContent(name: "Satsang Audio", image: "power")
     let menuAshramContacts = MenuContent(name: "Ashram Contacts", image: "power")
     let menuPrivacy = MenuContent(name: "Privacy Policy", image: "power")
-    let menuContents = [menuHome, menuAbout, menuIdeology, menuMission, menuTrust, menuSatguru, menuKabirSahib, menuFAQs, menuGuruVsSatguru, menuParampurushVsNiranjan, menuTVChannels, menuBhajanPlaylist, menuSatsangAudio, menuAshramContacts, menuPrivacy]
+    let menuContents = [menuHome, menuQuickLinks,menuAbout, menuIdeology, menuMission, menuTrust, menuSatguru, menuKabirSahib, menuFAQs, menuGuruVsSatguru, menuParampurushVsNiranjan, menuTVChannels, menuAshramContacts, menuPrivacy]
 
     struct ContentView_Previews: PreviewProvider {
         

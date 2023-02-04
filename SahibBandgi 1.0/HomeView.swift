@@ -12,7 +12,7 @@ let lightOrange = Color(#colorLiteral(red: 0.9831841588, green: 0.8905407786, bl
 
 struct HomeView: View {
     @State private var showingMenu = false
-    @Environment(\.openURL) private var openURL
+    
     private var noOfImages = 5
     private let timer = Timer.publish(every: 3, on: .main, in: .common).autoconnect()
     @State private var currentIndex = 0
@@ -21,6 +21,7 @@ struct HomeView: View {
         
 
         ZStack {
+            
             List {
                 
                 //                Text ("")
@@ -136,18 +137,63 @@ struct HomeView: View {
                         .onReceive(timer, perform: { _ in
                             currentIndex = currentIndex < noOfImages ? currentIndex + 1 : 0
                         })
-                    
-                    Text("---------Reach Us at----------")
-                        .font(.system(size: 18))
-                        .bold()
                         
-                    }
-                HStack{
-                
                 }
                 
+                VStack {
+                    Text("----------Reach Us at----------")
+                        .font(.system(size: 18))
+                        .bold()
+                        .padding()
                     
-//                }
+                    HStack {
+                        Text("")
+                        
+                        Button(action: {
+                            
+                            if let yourURL = URL(string: "https://www.youtube.com/user/SahibBandgi") {
+                                UIApplication.shared.open(yourURL, options: [:], completionHandler: nil)
+                            }
+                            
+                        }) {
+                            Image("social_youtube")
+                        }.padding()
+                        
+                        Button(action: {
+                            
+                            if let yourURL = URL(string: "https://www.instagram.com/sahib_bandgi_official/") {
+                                UIApplication.shared.open(yourURL, options: [:], completionHandler: nil)
+                            }
+                            
+                        }) {
+                            Image("social_instagram")
+                        }.padding()
+                        
+                        Button(action: {
+                            
+                            if let yourURL = URL(string: "https://www.facebook.com/sahibbandgi.jammu/") {
+                                UIApplication.shared.open(yourURL, options: [:], completionHandler: nil)
+                            }
+                            
+                        }) {
+                            Image("social_facebook")
+                        }.padding()
+                        
+                        Button(action: {
+                            
+                            if let yourURL = URL(string: "https://t.me/s/SahibBandgiofficial") {
+                                UIApplication.shared.open(yourURL, options: [:], completionHandler: nil)
+                            }
+                            
+                        }) {
+                            Image("social_telegram")
+                        }.padding()
+                        
+                    }
+                    
+                }
+                
+                
 
                     
 

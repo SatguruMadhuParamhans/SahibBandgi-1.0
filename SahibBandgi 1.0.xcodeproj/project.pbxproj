@@ -16,11 +16,11 @@
 		0A0946552978326A0015F858 /* GuruVsSatguruView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0946542978326A0015F858 /* GuruVsSatguruView.swift */; };
 		0A094657297832C00015F858 /* ParampurushVsNiranjanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A094656297832C00015F858 /* ParampurushVsNiranjanView.swift */; };
 		0A0946592978331C0015F858 /* TVChannelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0946582978331C0015F858 /* TVChannelsView.swift */; };
-		0A09465B297833640015F858 /* BhajanPlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09465A297833640015F858 /* BhajanPlaylistView.swift */; };
 		0A09465D297833A40015F858 /* SatsangAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09465C297833A40015F858 /* SatsangAudioView.swift */; };
 		0A09465F297833F50015F858 /* AshramContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09465E297833F50015F858 /* AshramContactsView.swift */; };
 		0A0946612978342D0015F858 /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0946602978342D0015F858 /* PrivacyView.swift */; };
 		0A0946632978346F0015F858 /* FAQsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0946622978346F0015F858 /* FAQsView.swift */; };
+		0A55F30A298BF1EA001AC9D3 /* QuickLinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A55F309298BF1EA001AC9D3 /* QuickLinksView.swift */; };
 		0AD7C86A2976F8D500A57B0A /* SahibBandgi_1_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD7C8692976F8D500A57B0A /* SahibBandgi_1_0App.swift */; };
 		0AD7C86C2976F8D500A57B0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD7C86B2976F8D500A57B0A /* ContentView.swift */; };
 		0AD7C86E2976F8D800A57B0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD7C86D2976F8D800A57B0A /* Assets.xcassets */; };
@@ -59,11 +59,11 @@
 		0A0946542978326A0015F858 /* GuruVsSatguruView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuruVsSatguruView.swift; sourceTree = "<group>"; };
 		0A094656297832C00015F858 /* ParampurushVsNiranjanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParampurushVsNiranjanView.swift; sourceTree = "<group>"; };
 		0A0946582978331C0015F858 /* TVChannelsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVChannelsView.swift; sourceTree = "<group>"; };
-		0A09465A297833640015F858 /* BhajanPlaylistView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BhajanPlaylistView.swift; sourceTree = "<group>"; };
 		0A09465C297833A40015F858 /* SatsangAudioView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SatsangAudioView.swift; sourceTree = "<group>"; };
 		0A09465E297833F50015F858 /* AshramContactsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AshramContactsView.swift; sourceTree = "<group>"; };
 		0A0946602978342D0015F858 /* PrivacyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
 		0A0946622978346F0015F858 /* FAQsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQsView.swift; sourceTree = "<group>"; };
+		0A55F309298BF1EA001AC9D3 /* QuickLinksView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickLinksView.swift; sourceTree = "<group>"; };
 		0AD7C8662976F8D500A57B0A /* SahibBandgi 1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SahibBandgi 1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD7C8692976F8D500A57B0A /* SahibBandgi_1_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SahibBandgi_1_0App.swift; sourceTree = "<group>"; };
 		0AD7C86B2976F8D500A57B0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -130,6 +130,7 @@
 				0AD7C8692976F8D500A57B0A /* SahibBandgi_1_0App.swift */,
 				0AD7C86B2976F8D500A57B0A /* ContentView.swift */,
 				0AD7C89829770AC600A57B0A /* AboutView.swift */,
+				0A55F309298BF1EA001AC9D3 /* QuickLinksView.swift */,
 				0A09464A297831560015F858 /* IdeologyView.swift */,
 				0A09464C297831A50015F858 /* MissionView.swift */,
 				0A09464E297831D10015F858 /* TrustView.swift */,
@@ -139,7 +140,6 @@
 				0A0946542978326A0015F858 /* GuruVsSatguruView.swift */,
 				0A094656297832C00015F858 /* ParampurushVsNiranjanView.swift */,
 				0A0946582978331C0015F858 /* TVChannelsView.swift */,
-				0A09465A297833640015F858 /* BhajanPlaylistView.swift */,
 				0A09465C297833A40015F858 /* SatsangAudioView.swift */,
 				0A09465E297833F50015F858 /* AshramContactsView.swift */,
 				0A0946602978342D0015F858 /* PrivacyView.swift */,
@@ -308,7 +308,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AD7C89929770AC600A57B0A /* AboutView.swift in Sources */,
-				0A09465B297833640015F858 /* BhajanPlaylistView.swift in Sources */,
 				0AD7C897297708DE00A57B0A /* HomeView.swift in Sources */,
 				0A094657297832C00015F858 /* ParampurushVsNiranjanView.swift in Sources */,
 				0A094651297831FF0015F858 /* SatguruView.swift in Sources */,
@@ -320,6 +319,7 @@
 				0A09464F297831D10015F858 /* TrustView.swift in Sources */,
 				0A0946592978331C0015F858 /* TVChannelsView.swift in Sources */,
 				0AD7C86A2976F8D500A57B0A /* SahibBandgi_1_0App.swift in Sources */,
+				0A55F30A298BF1EA001AC9D3 /* QuickLinksView.swift in Sources */,
 				0A0946632978346F0015F858 /* FAQsView.swift in Sources */,
 				0A09465F297833F50015F858 /* AshramContactsView.swift in Sources */,
 				0A0946552978326A0015F858 /* GuruVsSatguruView.swift in Sources */,
